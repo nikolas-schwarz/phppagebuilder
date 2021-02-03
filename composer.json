@@ -1,0 +1,23 @@
+{
+    "name": "nikolas-schwarz/phppagebuilder",
+    "description": "Small side project to implement a page builder with php.",
+    "type": "project",
+    "homepage": "https://github.com/nikolas-schwarz/phppagebuilder",
+    "readme": "https://github.com/nikolas-schwarz/phppagebuilder/blob/main/README.md",
+    "version": "dev-1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolas Schwarz",
+            "email": "nikolas.schwarz@evolut.solutions"
+        }
+    ],
+    "require": {
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpPageBuilder\\": "src/"
+        }
+    }
+}
